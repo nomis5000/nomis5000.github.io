@@ -1,2 +1,2 @@
 # nomis5000.github.io
-simple github-page
+simple Github-page
