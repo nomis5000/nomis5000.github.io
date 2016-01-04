@@ -1,0 +1,18 @@
+---
+layout: page
+title: Welcome to ziprandoms place.
+tagline: nothing there.
+---
+
+
+I like computers. And networks. And programming. Communication and other People. 
+
+I work as a freelance IT-Consultant, Network Administrator, Web- and Softwaredeveloper. 
+
+## Posts on This Blog
+
+<ul class="posts">
+  {% for post in site.posts %}
+    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
